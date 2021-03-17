@@ -9,8 +9,6 @@ data = pd.read_csv('mbti.csv')
 #data.head()
 
 # Text preprocessing steps - remove numbers, captial letters and punctuation
-
-
 def alphanumeric(x): return re.sub(r"""\w*\d\w*""", ' ', x)
 
 
